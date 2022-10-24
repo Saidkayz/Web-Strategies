@@ -1,0 +1,272 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(parrot.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    margin: auto;
+    width: 220%;
+    height: 50px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: right;
+    padding-top: 10px;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: red;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 70px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border: 2px solid red;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: absolute;
+
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: red;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 550px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 980px;
+    border-radius: 10px;
+    padding: 25px;
+    justify-content: center;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    background: transparent;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    
+
+}
+.textbox {
+    width: 240px;
+    height: 35px;
+    background: none;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: block;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    background: none;
+}
+.textbox:focus{
+    outline: none;
+}
+.textbox ion-icon{
+    color: white;
+}    
+::placeholder{
+    color:white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 18px;
+    cursor: pointer;
+    color: white;
+    transition: .4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: red;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .Link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .Link a{
+    text-decoration: none;
+    color: red;
+}
+.Liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+  
+}
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: red;
+}
+.form .user-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.form .user-box ion-icon{
+    text-decoration: none;
+    color: red;
+    font-size: 60px;
+    position: absolute;
+    top: 70px;
+    left: 24px;
+    margin: auto;
+        text-align: center;
+        display: flex;
+}
