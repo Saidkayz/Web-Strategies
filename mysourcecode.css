@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(parrot.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+    .form{
+        width: 250px;
+        height: 550px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: 100px;
+        left: 620px;
+        border-radius: 10px;
+        padding: 25px;
+        justify-content: center;
+    }
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: red;
+        font-size: 22px;
+        background: transparent;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-top: 60px;
+        padding: 10px;
+        
+    
+    }
+    .textbox {
+        width: 240px;
+        height: 35px;
+        background: none;
+        border-bottom: 1px solid red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+        display: block;
+    }
+    .textbox i{
+        width: 26px;
+        float: left;
+        text-align: center;
+    }
+    .textbox input{
+        border: none;
+        background: none;
+    }
+    .textbox:focus{
+        outline: none;
+    }
+    .textbox ion-icon{
+        color: white;
+    }    
+    ::placeholder{
+        color:white;
+        font-family: Arial;
+        opacity: 1;
+    }
+    .btnn{
+        width: 240px;
+        height: 40px;
+        background: red;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 18px;
+        cursor: pointer;
+        color: white;
+        transition: .4s ease;
+    }
+    .btnn:hover{
+        background: white;
+        color: red;
+    }
+    .btnn a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .form .Link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    .form .Link a{
+        text-decoration: none;
+        color: red;
+    }
+    .Liw{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .icon a{
+        text-decoration: none;
+        color: white;
+      
+    }
+    .icon ion-icon{
+        color: white;
+        font-size: 30px;
+        padding-left: 16px;
+        padding-top: 5px;
+        transition: 0.3s ease;
+    }
+    .icon ion-icon:hover{
+        color: red;
+    }
+    .form .user-box{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        text-align: center;
+        top: -50px;
+        
+    }
+    .form .user-box ion-icon{
+        text-decoration: none;
+        color: red;
+        font-size: 60px;
+        position: absolute;
+        top: 70px;
+        margin: auto;
+        text-align: center;
+    }    
